@@ -1,0 +1,53 @@
+
+.nav,
+.main {
+	display: flex;
+	/*Safari settings for flex box*/
+	display: -webkit-flex;
+}
+
+.nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  /*Safari settings for flex box*/
+  display: -webkit-flex;
+  -webkit-flex-direction: row;
+  -webkit-justify-content: space-between;
+  -webkit-flex-wrap: wrap;
+}
+
+.nav li {
+	flex-grow: 1;
+	/*Safari settings for flex box*/
+	-webkit-flex-grow: 1;
+}
+
+.col {
+	flex: 1;
+	/*Safari settings for flex box*/
+	-webkit-flex: 1;
+}
+
+.col-c {
+	flex: 2;
+	order: -1;
+	/*Safari settings for flex box*/
+	-webkit-flex: 2;
+	-webkit-order: -1;
+}
+
+.col-b {
+	align-self: stretch;
+	/*Safari settings for flex box*/
+	-webkit-align-self: stretch;
+}
+
+@media screen and (max-width: 999px) {
+		.main {
+			flex-direction: column;
+			/*Safari settings for flex box*/
+			-webkit-flex-direction: column;
+		}
+}
