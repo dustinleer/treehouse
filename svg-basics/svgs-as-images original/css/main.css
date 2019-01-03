@@ -1,0 +1,79 @@
+*, *:before, *:after {
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+body {
+	font-family: 'Nunito', sans-serif;
+	color: #384047;
+}
+
+.wrapper {
+	max-width: 90%;
+	margin: 10px auto;
+	padding: 10px 20px;
+	background: #f4f7f8;
+	border-radius: 8px;
+}
+
+h1, h2 {
+	margin: 30px 0;
+	text-align: center;
+}
+
+.graphic,
+.graphic-with-text {
+	margin: 1em auto;
+	width: 20%;
+}
+
+.graphic-with-text {
+	color: white;
+	background: transparent url("../img/star.svg") center center no-repeat;
+	height: 200px;
+}
+
+.graphic, #explore {
+	margin: 1em auto;
+	width: 50%;
+	display: block;
+}
+
+.star-point,
+.outer-circle, .iris, .sub-directions, .directions {
+	opacity: 0;
+}
+
+.inner-circle {
+	stroke-opacity: 0;
+}
+
+.star,
+.directions, .burst, .eye, .iris,
+.ripples, .sub-directions {
+	stroke-width: 10;
+}
+
+@media only screen and (min-width: 30em) {
+	.inner-circle {
+		stroke-opacity: 1;
+	}
+}
+
+@media only screen and (min-width: 40em) {
+	.outer-circle, .sub-directions, .directions {
+		opacity: 1;
+	}
+
+	.star, .directions, .burst, .eye, .iris,
+	.ripples, .sub-directions {
+		stroke-width: 8;
+	}
+}
+
+@media only screen and (min-width: 64em) {
+	.star-point, .iris {
+		opacity: 1;
+	}
+}
