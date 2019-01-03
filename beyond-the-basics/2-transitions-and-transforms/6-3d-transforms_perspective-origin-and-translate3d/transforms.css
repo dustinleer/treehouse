@@ -1,0 +1,28 @@
+
+body {
+  perspective: 800px;
+  -webkit-perspective: 800px;
+	/*perspective-origin: center top;
+	-webkit-perspective-origin: center top;*/
+}
+
+.wrap {
+  transition: -webkit-transform 1s ease-in;
+}
+
+.wrap div {
+  position: absolute;
+}
+
+.side-a {
+  z-index: 100;
+}
+
+.wrap:hover {
+  /*transform: rotate3d(1,0,0,65deg);
+  -webkit-transform: rotate3d(1,0,0,65deg);
+	transform: translate3d(100px, 50px, 150px);
+  -webkit-transform: translate3d(100px, 50px, 150px);*/
+	transform: scaleZ(2) translateZ(200px);
+  -webkit-transform: scaleZ(2) translateZ(200px);
+}

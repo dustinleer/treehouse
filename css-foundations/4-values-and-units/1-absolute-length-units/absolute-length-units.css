@@ -1,0 +1,55 @@
+/* Absolute Length Units
+--------------------------------------------- */
+/***********************************************
+px: Relative to the viewing device.
+For screen display, typically one device pixel
+(dot) of the display.
+
+For printers and very high resolution screens
+one CSS pixel implies multiple device pixels,
+so that the number of pixel per inch stays
+around 96.
+
+mm: One millimeter.
+
+cm: One centimeter (10 millimeters).
+
+in: One inch (2.54 centimeters).
+
+pt: One point (which is 1/72 of an inch).
+
+pc: One pica (which is 12 points).
+
+Some specific examples:
+1in is always 96px,
+3pt is always 4px,
+25.4mm is always 96px.
+/***********************************************
+
+
+.cm {
+  width: 21.16cm;
+}
+
+.mm {
+  width: 211.6mm;
+}
+
+.in {
+  width: 8.33in;
+}
+
+.pc {
+  width: 50pc;
+  font-size: 2.4pc
+}
+
+.pt {
+  width: 600pt;
+  font-size: 28.4pt;
+}
+
+.px {
+  width: 800px;
+  font-size: 38px;
+}

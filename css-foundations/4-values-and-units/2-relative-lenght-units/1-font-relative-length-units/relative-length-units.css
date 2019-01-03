@@ -1,0 +1,36 @@
+
+/* Relative Length Units
+--------------------------------------------- */
+html {
+  font-size: 10px;
+}
+
+.box {
+  width: 30em;
+  font-size: 2em;
+}
+
+/***********************************************
+ex units: This unit represents the x-height of
+the element's font. On fonts with the 'x' letter,
+this is generally the height of lowercase letters
+in the font; 1ex ≈ 0.5em in many fonts.
+
+em units: This unit represents the calculated
+font-size of the element. If used on the font-size
+property itself, it represents the inherited
+font-size of the element
+
+rem unit: This unit represents the font-size of
+the root element (e.g. the font-size of the
+<html> element). When used on the font-size on
+this root element, it represents its initial value.
+
+Viewport units: vw, vh, vmin, vmax
+Length units representing 1% of the viewport size
+for viewport width (vw), height (vh), the smaller
+of the two (vmin), or the larger of the two (vmax).
+************************************************/
+p {
+  font-size: 1.2rem;
+}

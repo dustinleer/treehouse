@@ -1,0 +1,22 @@
+/* Complete the challenge by writing CSS below */
+
+.nav,
+.main {
+  display: flex;
+  display: -webkit-flex;
+}
+
+.nav {
+  flex-wrap: wrap;
+  -webkit-flex-wrap: wrap;
+}
+
+.nav li {
+  flex-grow: 1;
+  -webkit-flex-grow: 1;
+}
+
+.primary {
+  order: -1;
+  -webkit-order: -1;
+}
