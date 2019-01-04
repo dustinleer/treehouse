@@ -25,6 +25,9 @@
 								$myString .= 'by using the assignment operator';
 	*/
 
+	/* String Manipulation Quiz solution included due to having issues, is here for showing how I debugged.
+	*/
+	/*
 	//Place your code below this comment
 	$firstName = 'Rasmus';
 	$lastName = 'Lerdorf';
@@ -33,4 +36,7 @@
 
 	// echo $fullName . "\n"; this did not work
 	echo $fullName . " was the original creator of PHP.\n";
+	*/
+
+	
 ?>
