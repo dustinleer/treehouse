@@ -24,4 +24,13 @@
 								$myString .= $strings;
 								$myString .= 'by using the assignment operator';
 	*/
+
+	//Place your code below this comment
+	$firstName = 'Rasmus';
+	$lastName = 'Lerdorf';
+	// $fullName = $firstName . ' ' . $lastName . "\n"; this also did not work
+	$fullName = $firstName . ' ' . $lastName;
+
+	// echo $fullName . "\n"; this did not work
+	echo $fullName . " was the original creator of PHP.\n";
 ?>
