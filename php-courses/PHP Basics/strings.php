@@ -38,5 +38,9 @@
 	echo $fullName . " was the original creator of PHP.\n";
 	*/
 
-	
+	// Booleans
+	$isReady = true;
+	// Order of operation is top down.
+	$isReady = false;
+	var_dump($isReady);
 ?>
