@@ -12,17 +12,17 @@
 	// $string_one = $string_one . "\n";
 	// Prepend to a string
 	// $string_one = 'I am ' . $string_one;
-	echo $string_one;
+	// echo $string_one;
 
 	/* Concatentaion
-	Use		When				Example
-	""		Single variable		$myString = "Adding single variable $string to this string.";
+		Use		When				Example
+		""		Single variable		$myString = "Adding single variable $string to this string.";
 
-	.		Single line			$myString = 'Combining multiple' . $strings . 'on one line.";
+		.		Single line			$myString = 'Combining multiple' . $strings . 'on one line.";
 
-	.=		Multiple lines		$myString = 'Combining multiple lines';
-								$myString .= $strings;
-								$myString .= 'by using the assignment operator';
+		.=		Multiple lines		$myString = 'Combining multiple lines';
+									$myString .= $strings;
+									$myString .= 'by using the assignment operator';
 	*/
 
 	/*
@@ -60,6 +60,14 @@
 	// var_dump($a == $b);
 	// var_dump($a === $b); // will be false because they are not the same type
 
-	var_dump($string_one == 'Learning to display "Hello Alena!" to the screen.');
+	// var_dump($string_one == 'Learning to display "Hello Alena!" to the screen.');
+	$string_one = '';
+	if ($string_one == 'Learning to display "Hello Alena!" to the screen.') {
+		echo 'the values match';
+	} elseif ($string_one == '') {
+		echo '$string_one is empty';
+	} else {
+		echo 'the values DO NOT match';
+	}
 
 ?>
