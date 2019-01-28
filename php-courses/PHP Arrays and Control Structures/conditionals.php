@@ -12,5 +12,14 @@
 	// 	echo ' values are not equal ';
 	// }
 
-	
+	$score = 20;
+
+	if ( $score >= 60 ) {
+		echo 'You completed the level!';
+	} else if ( $score <= 30 ) {
+		echo 'You should practice some more before trying this level again.';
+	} else {
+		echo 'Please try again';
+	}
+
 ?>
