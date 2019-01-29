@@ -1,5 +1,8 @@
 <?php
-	switch ( date('l') ) {
+	$today =  date('l');
+
+	$today = 'Saturday';
+	switch ( $today ) {
 		case 'Moday':
 			echo 'Wash on Monday';
 			break;
@@ -16,10 +19,9 @@
 			echo "Clean on Friday";
 			break;
 		case "Saturday":
-			echo "Bake on Saturday";
-			break;
+			echo 'Saturday is the weekend. ';
 		case "Sunday":
-			echo "Rest on Sunday";
+			echo "Rest on the Weekend";
 			break;
 		default:
 			echo "I don't know what day it is";
