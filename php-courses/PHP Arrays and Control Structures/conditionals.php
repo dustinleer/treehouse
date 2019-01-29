@@ -93,11 +93,24 @@
 	// }
 
 
-	$num = 10000;
-	if ( $num >= 10 && $num <= 1000 ) {
-			echo 'your number is within the range';
-	} else {
-		echo ' your number is NOT within the range';
-	}
+	// $num = 10000;
+	// if ( $num >= 10 && $num <= 1000 ) {
+	// 	echo 'your number is within the range';
+	// } else {
+	// 	echo ' your number is NOT within the range';
+	// }
+
+
+	// $num = 20;
+	// if ( $num == 10 || is_string($num) ) {
+	// 	echo '10 or string';
+	// } else {
+	// 	echo ' NOT 10 or string';
+	// }
+	
+	$var1 = true && false; // Evalutes to $var1 = (true && false);
+	$var2 = true and false; // Evaluated to ($var2 = true) and false;
+
+	var_dump($var1, $var2);
 
 ?>
