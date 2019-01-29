@@ -1,5 +1,5 @@
 <?php
-	$a = '5';
+	$a = 0;
 	$b = 5;
 
 	// Examples of negation
@@ -44,6 +44,22 @@
 	// if ( $a !== $b ) {
 	// 	echo 'NOT identical';
 	// }
+
+	if ( $a ) {
+		echo 'true';
+	}
+
+	if ( !$a ) {
+		echo 'false';
+	}
+
+	if ( $a == false ) {
+		echo 'false';
+	}
+
+	if ( $a != true ) {
+		echo 'false';
+	}
 
 	// if ( $a == $b ) {
 	// 	echo ' values are equal ';
