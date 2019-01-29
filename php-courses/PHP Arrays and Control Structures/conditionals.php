@@ -1,14 +1,14 @@
 <?php
-	$a = 10;
+	$a = '5';
 	$b = 5;
 
 	// Examples of negation
 	// NUMBER 1
-	if ( $a == $b ) {
-		echo 'values are equal';
-	} else {
-		echo 'values are NOT equal';
-	}
+	// if ( $a == $b ) {
+	// 	echo 'values are equal';
+	// } else {
+	// 	echo 'values are NOT equal';
+	// }
 
 	/* Example of NUMBER 1
 	 * This can be written like this thought it can be confusing and adds extra code that we do not need 😢
@@ -20,7 +20,30 @@
 	}
 	*/
 
-	//  
+	/* Example of NUMBER 1
+	 * This can be written like this, thought it's still pretty complicated 😢
+	*/
+	/*
+	if (( $a == $b ) == false) {
+		echo 'values are NOT equal';
+	}
+	*/
+
+	// Less than or greater than
+	// if ( $a <> $b ) {
+	// 	echo 'values are NOT equal';
+	// }
+
+
+	// Negation Operator
+	if ( $a != $b ) {
+		echo 'values are NOT equal';
+	}
+
+	// Not identical
+	if ( $a !== $b ) {
+		echo 'values are NOT identical';
+	}
 
 	// if ( $a == $b ) {
 	// 	echo ' values are equal ';
