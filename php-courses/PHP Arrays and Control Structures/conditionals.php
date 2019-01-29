@@ -36,14 +36,14 @@
 
 
 	// Negation Operator
-	if ( $a != $b ) {
-		echo 'values are NOT equal';
-	}
+	// if ( $a != $b ) {
+	// 	echo 'values are NOT equal';
+	// }
 
 	// Not identical
-	if ( $a !== $b ) {
-		echo 'values are NOT identical';
-	}
+	// if ( $a !== $b ) {
+	// 	echo 'NOT identical';
+	// }
 
 	// if ( $a == $b ) {
 	// 	echo ' values are equal ';
