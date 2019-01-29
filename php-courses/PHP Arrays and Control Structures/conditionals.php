@@ -10,11 +10,15 @@
 		echo 'values are NOT equal';
 	}
 
-	// This can be written like this thought it can be confusing and adds extra code that we do not need 😢
+	/* Example of NUMBER 1
+	 * This can be written like this thought it can be confusing and adds extra code that we do not need 😢
+	*/
+	/*
 	if ( $a == $b ) {
 	} else {
 		echo 'values are NOT equal';
 	}
+	*/
 
 	//  
 
