@@ -45,21 +45,21 @@
 	// 	echo 'NOT identical';
 	// }
 
-	if ( $a ) {
-		echo 'true';
-	}
+	// if ( $a ) {
+	// 	echo 'true';
+	// }
 
-	if ( !$a ) {
-		echo 'false';
-	}
+	// if ( !$a ) {
+	// 	echo 'false';
+	// }
 
-	if ( $a == false ) {
-		echo 'false';
-	}
+	// if ( $a == false ) {
+	// 	echo 'false';
+	// }
 
-	if ( $a != true ) {
-		echo 'false';
-	}
+	// if ( $a != true ) {
+	// 	echo 'false';
+	// }
 
 	// if ( $a == $b ) {
 	// 	echo ' values are equal ';
