@@ -33,7 +33,10 @@
 	$learn = array_values( $learn );
 
 	// unset($array); will remove your entire array.
-	unset( $learn );
+	// unset( $learn );
+
+	// $learn = 'my learning list';
+	$learn[0] = 'Email';
 
 	var_dump( $learn );
 	// echo $learn[1];
