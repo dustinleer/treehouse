@@ -19,12 +19,19 @@
 	// Adds multiple elements to the beginning of an array
 	array_unshift( $learn, 'HTML', 'CSS' );
 
+	asort( $learn );
+	sort( $learn );
+	rsort( $learn );
+	
 	// Shifts an element off the beginning of array.
 	// http://php.net/manual/en/function.array-shift.php
-	echo 'you removed ' . array_shift( $learn );
-
+	// echo 'you removed ' . array_shift( $learn );
+	
 	// Pops the element off the end of array
-	echo 'you removed ' . array_pop( $learn );
+	// echo 'you removed ' . array_pop( $learn );
+	// var_dump( $learn );
+	shuffle( $learn );
+	echo $learn[0];
 
 	// Unset a given variable (works on more than array values, but does not update array keys
 	unset( $learn[1], $learn[2] );
@@ -38,7 +45,7 @@
 	// $learn = 'my learning list';
 	$learn[0] = 'Email';
 
-	var_dump( $learn );
+	// var_dump( $learn );
 	// echo $learn[1];
 	// echo $learn;
 	// echo implode("\n", $learn);
