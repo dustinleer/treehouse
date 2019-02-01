@@ -7,8 +7,19 @@
 	// 	echo $year . "<br /> \n";
 	// }
 
-	do {
-		echo $year . "<br /> \n";
-	} while ( ++$year <= $currentYear );
+	// do {
+	// 	echo $year . "<br /> \n";
+	// } while ( ++$year <= $currentYear );
+
+	$learn = array( 'Conditonals', 'Arrays', 'Loops' );
+	$learn[] = 'Build something awesome!';
+	array_push( $learn, 'Functions', 'Forms', 'Objects' );
+	array_unshift( $learn, 'HTML', 'CSS' );
+	asort( $learn );
+
+  $count = 0;
+  while ((list( $key, $val ) = each( $learn )) && $count++ < 2) {
+    echo "$key => $val \n";
+  }
 
 ?>
