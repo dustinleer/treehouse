@@ -44,6 +44,8 @@
 	for ( $i = 1; $i <= 100; $i++ ) {
 		if ( isset( $facts[$i] ) ) {
 			echo $i . $facts[$i] . "\n";
+		} else {
+			echo $i  . "\n";
 		}
 	}
 
