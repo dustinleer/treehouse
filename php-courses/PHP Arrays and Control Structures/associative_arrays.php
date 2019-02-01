@@ -36,9 +36,28 @@
 	// Array Keys are case sensitive
 	$iceCream['alena'] = 'Pistachio';
 	$iceCream['Dave Thomas'] = 'Cookies and Cream';
-	$iceCream[] = 'Vanilla';
+	// $iceCream[] = 'Vanilla';
 	$iceCream['Andrew'] = true;
+	krsort( $iceCream );
+	asort( $iceCream );
 	var_dump( $iceCream );
+
+	/* Sorting
+	 * PHP has several functions that deal with Sorting Arrays (http://php.net/manual/en/array.sorting.php). The main differences are:
+
+     	* Some sort based on the array keys, whereas others by the values: $array['key'] = 'value';
+	
+		* Whether or not the correlation between the keys and values are maintained after the sort, which may mean the keys are reset numerically (0,1,2 ...)
+	
+		* The order of the sort: alphabetical, low to high (ascending), high to low (descending), numerical, natural, random, or user defined
+	
+		* Note: All of these sort functions act directly on the array variable itself, as opposed to returning a new sorted array
+	
+		* If any of these sort functions evaluates two members as equal then the order is undefined (the sorting is not stable).
+
+		* Note that ksort will NOT work if numeric and string keys are mixed together, so let's comment out this line adding vanilla.
+
+	*/ 
 
 	$keys = array(
 		1 	 => 'a',
