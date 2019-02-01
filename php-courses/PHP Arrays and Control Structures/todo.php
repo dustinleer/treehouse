@@ -13,8 +13,8 @@
 		'complete' => false,
 	];
 	// $list = array( $task1, $task2 );
-	// var_dump( $list );
-	echo $list[0]['title'];
+	var_dump( $list );
+	// echo $list[0]['title'];
 	// var_dump( $task1 );
 
 ?>
