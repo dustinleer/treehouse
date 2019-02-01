@@ -42,7 +42,6 @@
 	);
 
 	for ( $i = 1; $i <= 100; $i++ ) {
-		echo $i  . "\n";
 		if ( isset( $facts[$i] ) ) {
 			echo $i . $facts[$i] . "\n";
 		}
