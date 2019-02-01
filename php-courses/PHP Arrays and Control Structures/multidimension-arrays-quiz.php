@@ -1,7 +1,12 @@
 <?php
 
 	//edit this array
-	$contacts = array('Alena Holligan', 'Dave McFarland', 'Treasure Porth', 'Andrew Chalkley');
+	$contacts = array(
+		array ( 'name'  => 'Alena Holligan' ),
+		array ( 'name'  => 'Dave McFarland' ),
+		array ( 'name'  => 'Treasure Porth' ),
+		array ( 'name'  => 'Andrew Chalkley' ),
+		);
 
 	echo "<ul>\n";
 	//$contacts[0] will return 'Alena Holligan' in our simple array of names.
