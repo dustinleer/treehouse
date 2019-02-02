@@ -58,6 +58,7 @@
 
 	// echo $greeting;
 
+
 	// Returning Integers
 	// function add_up( $a, $b ) {
 	// 	$arr = array(
@@ -72,16 +73,27 @@
 	// // print_r( $value );
 	// echo $value[2];
 
-	function answer() {
-		return 42;
-	}
 
-	function add_up( $a, $b ) {
-		return $a + $b;
-	}
+	// PHP Variable Functions
+	// function answer() {
+	// 	return 42;
+	// }
 
-	$func = 'add_up';
-	$num = $func( 5, 10 );
-	echo $num;
+	// function add_up( $a, $b ) {
+	// 	return $a + $b;
+	// }
 
+	// $func = 'add_up';
+	// $num = $func( 5, 10 );
+	// echo $num;
+
+
+	// PHP Closures
+	$name = 'Mike';
+
+	$greet = function() use( $name ){
+		echo "Hello, $name!";
+	};
+
+	$greet();
 ?>
