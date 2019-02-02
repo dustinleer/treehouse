@@ -1,12 +1,12 @@
 <?php
 
 	// Creating the function
-	function hello() {
-		echo 'Hello, World';
-	}
+	// function hello() {
+	// 	echo 'Hello, World';
+	// }
 
 	// Call the function
-	hello();
+	// hello();
 
 
 	$current_user = 'Mike';
@@ -20,5 +20,22 @@
 		}
 	}
 	is_mike();
+
+	
+	function hello( $arr ) {
+		if (is_array( $arr )) {
+			foreach ( $arr as $name ) {
+				echo "Hello, $name, how's it going!</br>";
+			}
+		} else {
+			'Hello, friends';
+		}
+	}
+	$names = array(
+		'Hampton',
+		'Mike',
+		'Charley',
+	);
+	hello($names);
 
 ?>
