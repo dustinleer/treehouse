@@ -58,4 +58,12 @@
 
 	echo $greeting;
 
+	// Returning Integers
+	function add_up( $a, $b ) {
+		return $a + $b;
+	}
+	$value = add_up( 2, 4 );
+
+	echo $value;
+
 ?>
