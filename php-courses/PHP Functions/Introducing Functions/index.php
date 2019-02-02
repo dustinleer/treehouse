@@ -47,4 +47,15 @@
 	}
 	get_info('Mike', 'frog');
 
+	function hello( $name ) {
+		if ( $name == 'Mike' ) {
+			return 'Hello, Mike!';
+		} else {
+			return 'Hello, stranger.';
+		}
+	}
+	$greeting = hello( 'Mike' );
+
+	echo $greeting;
+
 ?>
