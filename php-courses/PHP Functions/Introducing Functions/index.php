@@ -22,20 +22,29 @@
 	is_mike();
 
 	
-	function hello( $arr ) {
-		if (is_array( $arr )) {
-			foreach ( $arr as $name ) {
-				echo "Hello, $name, how's it going!</br>";
-			}
+	// function hello( $arr ) {
+	// 	if (is_array( $arr )) {
+	// 		foreach ( $arr as $name ) {
+	// 			echo "Hello, $name, how's it going!</br>";
+	// 		}
+	// 	} else {
+	// 		'Hello, friends';
+	// 	}
+	// }
+	// $names = array(
+	// 	'Hampton',
+	// 	'Mike',
+	// 	'Charley',
+	// );
+	// hello($names);
+
+	function get_info( $name, $title = Null ) {
+		if ( $title ) {
+			echo "$name has arrived, the are with us as a $title";
 		} else {
-			'Hello, friends';
+			echo "$name has arrived, welcome!";
 		}
 	}
-	$names = array(
-		'Hampton',
-		'Mike',
-		'Charley',
-	);
-	hello($names);
+	get_info('Mike', 'frog');
 
 ?>
