@@ -89,11 +89,33 @@
 
 
 	// PHP Closures
-	$name = 'Mike';
+	// $name = 'Mike';
 
-	$greet = function() use( $name ){
-		echo "Hello, $name!";
-	};
+	// $greet = function() use( $name ){
+	// 	echo "Hello, $name!";
+	// };
 
-	$greet();
+	// $greet();
+
+
+	/* PHP Functions
+	 *  PHP String Functions
+	*/
+
+	$phrase = "We only hit what we aim for";
+
+	$len = strlen( $phrase );
+	// echo $len;
+
+	// Substring
+	// echo substr( $phrase, 0, 5 );
+
+
+	// String Position
+	// echo strpos( $phrase, 'hit' );
+	// Will return false if 'string' is not found.
+
+	$start = strpos( $phrase, 'hit' );
+	echo substr( $phrase, $start );
+
 ?>
