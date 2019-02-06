@@ -559,9 +559,10 @@ body {font-family: 'Open Sans', sans-serif; background:#f0eeed; color: #676767;}
     font-weight: normal;
     padding-top: 20px;
 }
-.section.catalog ul.items {margin: 0 0 -17px 0; padding: 0; width: 997px;}
+.section.catalog ul.items {margin: 0 0 -17px 0; padding: 0; width: 997px; overflow: hidden;}
 .section.catalog ul.items li {
-    display: inline-block;
+	display: block;
+	float: left;
     list-style: none;
     width: 204px;
     text-align: center;
