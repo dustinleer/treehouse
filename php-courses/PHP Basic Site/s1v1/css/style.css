@@ -579,7 +579,7 @@ body {font-family: 'Open Sans', sans-serif; background:#f0eeed; color: #676767;}
     /* margin: 0 0 17px 17px; */
     position: relative;
 	/* left: -17px; */
-	align-items: flex-end;
+	/* align-items: flex-end; */
 }
 .section.catalog ul.items li a:hover:after {
     content: '+';
@@ -587,9 +587,13 @@ body {font-family: 'Open Sans', sans-serif; background:#f0eeed; color: #676767;}
 }
 .section.catalog ul.items li a {
     background: white;
-    display: block;
+    display: flex;
     padding: 30px 0 10px;
-    text-decoration: none;
+	text-decoration: none;
+	justify-content: center;
+	align-content: space-between;
+	align-items: flex-start;
+	flex-wrap: wrap;
 }
 .details-button {
   color: #888;
