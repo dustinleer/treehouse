@@ -579,7 +579,7 @@ body {font-family: 'Open Sans', sans-serif; background:#f0eeed; color: #676767;}
     /* margin: 0 0 17px 17px; */
     position: relative;
 	/* left: -17px; */
-	align-items: center;
+	align-items: flex-end;
 }
 .section.catalog ul.items li a:hover:after {
     content: '+';
