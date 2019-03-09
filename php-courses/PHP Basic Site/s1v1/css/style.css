@@ -559,17 +559,27 @@ body {font-family: 'Open Sans', sans-serif; background:#f0eeed; color: #676767;}
     font-weight: normal;
     padding-top: 20px;
 }
-.section.catalog ul.items {margin: 0 0 -17px 0; padding: 0; width: 997px; overflow: hidden;}
+.section.catalog ul.items {
+	margin: 0 0 -17px 0;
+	padding: 0;
+	width: 997px;
+	overflow: hidden;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
 .section.catalog ul.items li {
-	display: block;
-	float: left;
+	/* display: block; */
+	/* float: left; */
+	display: flex;
     list-style: none;
     width: 204px;
     text-align: center;
     padding: 14px;
-    margin: 0 0 17px 17px;
+    /* margin: 0 0 17px 17px; */
     position: relative;
-    left: -17px;
+	/* left: -17px; */
+	align-items: center;
 }
 .section.catalog ul.items li a:hover:after {
     content: '+';
