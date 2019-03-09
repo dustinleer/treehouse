@@ -1,4 +1,7 @@
 <?php
+
+	include("inc/data.php");
+
 	$pageTitle = "Full Catalog";
 	$section = null;
 
@@ -18,9 +21,25 @@
 	include( 'inc/header.php' );
 ?>
 
-		<div class="section page">
+		<div class="section catalog page">
 
-			<h1><?= $pageTitle; ?></h1>
+			<div class="wrapper">
+			
+				<h1><?= $pageTitle; ?></h1>
+
+				<ul class="items">
+					<?php
+						foreach ( $catalog as $item ) {
+							echo "<li><a href='#'><img src='"
+							. $item["img"] . "' alt='"
+							. $item["title"] . "' />"
+							. "<p>View Details</p>"
+							. "</a></li>";
+						}
+					?>
+				</ul>
+
+			</div>
 
 		</div>
 
