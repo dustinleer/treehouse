@@ -2,7 +2,7 @@
 
 	$catalog = [];
 	$catalog[101] = [
-		"title" 	=> "Design Patterns",
+		"title" 	=> "Design Patterns: Elements of Reusable Object-Oriented Software",
 		"img" 		=> "img/media/design_patterns.jpg",
 		"genre" 	=> "Tech",
 		"format" 	=> "Paperback",
@@ -180,7 +180,7 @@
 	$catalog[304] = [
 		"title" 	=> "The Very Thought of You",
 		"img" 		=> "img/media/nat_king_cole.jpg",
-		"genre" 	=> "Jaz",
+		"genre" 	=> "Jazz",
 		"format" 	=> "MP3",
 		"year" 		=> 2008,
 		"category" 	=> "Music",
